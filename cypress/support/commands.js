@@ -10,17 +10,17 @@
 //
 //
 // -- This is a parent command --
-//Cypress.Commands.add('Homepage login', (email, password) => { 
-//
-//       cy.visit('https://barrigareact.wcaquino.me/')
-//
-//      cy.get('[data-test="email"]').type('Ge@login')
-//      cy.get('[data-test="passwd"]').type('1234')
-//      cy.get('.btn').click()
-//      cy.get('.toast-message').should('contain', 'Bem vindo')
+Cypress.Commands.add('login', (user, password) => {
+
+    cy.visit('https://barrigareact.wcaquino.me/')
+
+    cy.get('[data-test="email"]').type('Ge@login')
+    cy.get('[data-test="passwd"]').type('1234')
+    cy.get('.btn').click()
+    cy.get('.toast-message').should('contain', 'Bem vindo')
 
 
-//})
+})
 
 // -- This is a child command --
 // Cypress.Commands.add('drag', { prevSubject: 'element'}, (subject, options) => { ... })
