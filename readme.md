@@ -2,12 +2,14 @@
 
 
 
-<h2><span style="color: red;">Automação de Testes com Cypress: Inserção de Nova Conta</h2></span>
-<h3><span style="color: yellow;">📌 Login Automatizado: Utilizei um comando customizado para realizar o login na aplicação, garantindo que o teste comece a partir de um estado autenticado.<br>
+<h2>Automação de Testes com Cypress: Inserção de Nova Conta</h2>
 
-Navegação e Interação: O teste navega até o menu de configurações, acessa a página de contas e insere os dados de uma nova conta.<br>
+<h3>📌 Login Automatizado: Utilizei um comando customizado para realizar o login na aplicação, garantindo que o teste comece a partir de um estado autenticado.
 
-Validação de Fluxo: O teste clica no botão de salvar, finalizando o processo de criação da conta.</h3></span>
+<h3>📌 Navegação e Interação: O teste navega até o menu de configurações, acessa a página de contas e insere os dados de uma nova conta.<br>
 
-<h2><span style="color: green;">Em andamento</h2></span>
-<h3><span style="color: yellow;">📌 Em andamento:</h3></span>
+<h3>📌 Validação de Fluxo: O teste clica no botão de salvar, finalizando o processo de criação da conta.</h3>
+
+<h2>Em andamento</h2>
+
+<h3>📌 Em andamento:</h3>
